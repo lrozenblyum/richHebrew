@@ -3,4 +3,18 @@
  */
 if ( typeof com === "undefined" ) { com = {}; }
 if ( typeof com.leokom === "undefined" ) { com.leokom = {}; }
-if ( typeof com.leokom.richHebrew === "undefined" ) { com.leokom.richHebrew = {}; } 
+
+com.leokom.richHebrew = (function() {
+	var enrich = function() {
+		
+	};
+	
+	return {
+		/**
+		 * Enrich (transform) content of the container provided
+		 * @param container - DOM element
+		 */
+		enrich : enrich
+	};	
+})();
+ 
